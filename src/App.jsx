@@ -58,7 +58,7 @@ function App() {
         <div className="cards">
           <p className="workouts"> WorkOut 2</p>
           <h2>HIGH KNEES</h2>
-          <button id="btn2" onClick={() => handle(3,'btn2')} disabled={isButtonDisabled}>{buttonTexts.btn2}</button>
+          <button id="btn2" onClick={() => handle(30,'btn2')} disabled={isButtonDisabled}>{buttonTexts.btn2}</button>
         </div>
         <div className="cards">
           <p className="workouts"> WorkOut 3</p>
